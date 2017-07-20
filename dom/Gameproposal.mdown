@@ -1,0 +1,24 @@
+Game proposals
+
+
+Landing page: What will a player see when they start your game?
+
+the player will see a landing page with the rules of the game and then a 'start game' button. On the actual game page the player should see the full page of the game with div id "alison" on the top right of page ready to make her way down to the bottom left of the page. 
+
+
+Initialization: What will a player see when the game is started? 
+
+the player will see a countdown timer using the setInterval method.
+
+
+Game play: What will be the flow of the game, what will the user be expeted to do and what will the user expect from the game?
+
+The user is expected to make his or her way to the bottom right of the page before the timer runs out and whilst avoiding the "creeper" obstacles (various character divs) using javascript collison detection.
+
+Win condition: What does it look like when the game ends, what determines winning or losing?
+
+"alison" will make her way to the bottom right "bar" area while avoiding the "creepers"  before time runs out.
+
+Reset: How will the user restart the game once it has been completed.
+
+some sort of event listener will be created for this.. I am starting to feel like this idea is overly ambitious.
